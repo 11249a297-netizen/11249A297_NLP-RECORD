@@ -1,0 +1,7 @@
+NP = ["John", "Mary"]
+
+print("Possible Sentences:")
+
+for subject in NP:
+    for obj in NP:
+        print(subject, "eats", obj)
